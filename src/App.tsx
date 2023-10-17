@@ -16,6 +16,7 @@ import FormularioPostagem from './components/postagens/formularioPostagem/Formul
 
 import Perfil from './pages/perfil/Perfil';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import React from 'react';
 
 function App() {
   

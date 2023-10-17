@@ -5,6 +5,7 @@ import { AuthContext } from '../../../contexts/AuthContext'
 import Tema from '../../../models/Tema'
 import { buscar, deletar } from '../../../services/Service'
 import { toastAlerta } from '../../../utils/toastAlerta'
+import React from 'react'
 
 function DeletarTema() {
     const [tema, setTema] = useState<Tema>({} as Tema)

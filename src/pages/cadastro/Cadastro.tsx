@@ -4,6 +4,7 @@ import Usuario from '../../models/Usuario'
 import { cadastrarUsuario } from '../../services/Service'
 import './Cadastro.css'
 import { toastAlerta } from '../../utils/toastAlerta'
+import React from 'react'
 
 function Cadastro() {
 

@@ -6,6 +6,7 @@ import Postagem from '../../../models/Postagem';
 import Tema from '../../../models/Tema';
 import { buscar, atualizar, cadastrar } from '../../../services/Service';
 import { toastAlerta } from '../../../utils/toastAlerta';
+import React from 'react';
 
 
 function FormularioPostagem() {

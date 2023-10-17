@@ -7,6 +7,7 @@ import Tema from '../../../models/Tema';
 import { buscar } from '../../../services/Service';
 import CardTemas from '../cardTemas/CardTemas';
 import { toastAlerta } from '../../../utils/toastAlerta';
+import React from 'react';
 
 function ListaTemas() {
   const [temas, setTemas] = useState<Tema[]>([]);
