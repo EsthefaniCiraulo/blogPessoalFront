@@ -5,7 +5,6 @@ import { AuthContext } from '../../../contexts/AuthContext';
 import Tema from '../../../models/Tema';
 import { atualizar, buscar, cadastrar } from '../../../services/Service';
 import { toastAlerta } from '../../../utils/toastAlerta';
-import React from 'react';
 
 function FormularioTema() {
   const [tema, setTema] = useState<Tema>({} as Tema);

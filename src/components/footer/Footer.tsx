@@ -5,7 +5,6 @@ import {
 } from "@phosphor-icons/react";
 import { useContext } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
-import React from "react";
 
 function Footer() {
   const { usuario } = useContext(AuthContext);

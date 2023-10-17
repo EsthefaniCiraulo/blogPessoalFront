@@ -2,7 +2,6 @@ import { useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../../contexts/AuthContext'
 import { toastAlerta } from '../../utils/toastAlerta'
-import React from 'react'
 
 
 function Navbar() {
